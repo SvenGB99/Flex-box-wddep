@@ -1,0 +1,33 @@
+/* Default & Mobile View */
+
+
+/* Tablet View */
+
+@media (min-width: 768px) {
+
+    body {
+        background: pink;
+    }
+    main {
+    display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     /* flex-shrink: 2;
+     flex-basis: 45%; */
+}
+
+    .card {
+        max-width: 45%;
+    }
+
+
+/* Desktop View */
+
+@media (min-width: 1024px) {
+
+    .card {
+        min-width: none;
+        max-width:30%;
+    }
+	
+}
